@@ -1,0 +1,18 @@
+.container{
+    font-size: 25px;
+}
+
+.headline{
+    margin-top: 20px;
+    font-size: 25px;
+    color: white
+}
+
+.info{
+    font-size: 20px;
+    color: white
+}
+
+.row{
+    width: 1600px;
+}
