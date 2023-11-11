@@ -1,5 +1,7 @@
 import { TypeAnimation } from 'react-type-animation';
 import Particle from './Particle';
+import linkedin from './photos/linkedin.png'
+import github from './photos/github.png'
 
 function Home() {
     
@@ -16,8 +18,7 @@ function Home() {
                 speed={50}
                 
             />
-            </div>
-              
+            </div>              
       </div>
     );
   }

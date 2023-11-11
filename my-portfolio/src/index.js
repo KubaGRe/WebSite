@@ -8,6 +8,8 @@ import Contact from './Contact';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import linkedin from './photos/linkedin.png'
+import github from './photos/github.png'
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,9 +25,14 @@ root.render(
             <Nav.Link><Link activeClass="active" smooth={true} spy={true} duration={0} to="contact">Contact me</Link></Nav.Link>   
           </Nav>
         </Container>
-      </Nav>
         
+      </Nav>   
+      <div style={{display:"flex" , flexDirection:"row", position:"absolute", marginTop:"100%"}}>
+                <a href='https://www.linkedin.com/in/jakub-grela-6a5676200/'><img src={linkedin} style={{width:"60px", height:"60px", borderStyle:"solid", borderWidth:"5px", margin:"10px"}}/></a>
+                <a href='https://github.com/KubaGRe'><img src={github} style={{width:"60px", height:"60px", borderStyle:"solid", borderWidth:"5px", margin:"10px"}}/></a>
+      </div>            
       </Navbar>
+           
     <div style={{marginTop:'-70px'}}>
       <section id='home'>
         <Home />
@@ -40,6 +47,7 @@ root.render(
         <Contact />
       </section>  
     </div>
+    
       
     
   </React.StrictMode>
