@@ -21,15 +21,15 @@ root.render(
           <Nav>
             <Nav.Link><Link activeClass="active" smooth={true} spy={true} duration={0} to="home">Home</Link></Nav.Link>
             <Nav.Link><Link activeClass="active" smooth={true} spy={true} duration={0} to="about">About me</Link></Nav.Link>
-            <Nav.Link><Link activeClass="active" smooth={true} spy={true} duration={0} to="portfolio">Portfolio</Link></Nav.Link>
+            <Nav.Link><Link activeClass="active" smooth={true} spy={true} duration={0} to="portfolio">Projects</Link></Nav.Link>
             <Nav.Link><Link activeClass="active" smooth={true} spy={true} duration={0} to="contact">Contact me</Link></Nav.Link>   
           </Nav>
         </Container>
         
       </Nav>   
-      <div style={{display:"flex" , flexDirection:"row", position:"absolute", marginTop:"100%"}}>
-                <a href='https://www.linkedin.com/in/jakub-grela-6a5676200/'><img src={linkedin} style={{width:"60px", height:"60px", borderStyle:"solid", borderWidth:"5px", margin:"10px"}}/></a>
-                <a href='https://github.com/KubaGRe'><img src={github} style={{width:"60px", height:"60px", borderStyle:"solid", borderWidth:"5px", margin:"10px"}}/></a>
+      <div style={{display:"flex" , flexDirection:"row", position:"absolute", marginTop:"180vh"}}>
+                <a href='https://www.linkedin.com/in/jakub-grela-6a5676200/' target='_blank'><img src={linkedin} style={{width:"60px", height:"60px", borderStyle:"solid", borderWidth:"5px", margin:"10px"}}/></a>
+                <a href='https://github.com/KubaGRe' target='_blank'><img src={github} style={{width:"60px", height:"60px", borderStyle:"solid", borderWidth:"5px", margin:"10px"}}/></a>
       </div>            
       </Navbar>
            

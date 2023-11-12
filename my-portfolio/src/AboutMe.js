@@ -5,7 +5,7 @@ import cv from "./CV.pdf"
 
 function About() {
   return (
-    <div className="About" style={{height:"100vh", backgroundImage:`url(${mug})`, paddingTop:"140px"}}>
+    <div className="About" style={{height:"100vh", backgroundImage:`url(${mug})`, backgroundSize:"cover",paddingTop:"140px"}}>
       <div class="container" style={{marginLeft:"50px"}}>
         <div class="row">
           <div class="col">
@@ -21,7 +21,7 @@ function About() {
           <p class="headline">Work experience:</p>
             <p class="info">2021 - Currently : Software Test Engineer, Nokia Solutions and Networks</p>  
             <p class="info">2020 - 2021 : Software Test Engineer - Trainee, Merit Automotive Electronics Systems</p> 
-            <p class="info">2019 - 2020 : Vehicle Test Engineer - Traine, Aptiv </p> 
+            <p class="info">2019 - 2020 : Vehicle Test Engineer - Trainee, Aptiv </p> 
           </div>
           <div class="col">
             <p class="headline">Tech stack:</p>
