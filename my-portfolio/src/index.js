@@ -27,13 +27,13 @@ root.render(
         </Container>
         
       </Nav>   
-      <div style={{display:"flex" , flexDirection:"row", position:"absolute", marginTop:"180vh"}}>
-                <a href='https://www.linkedin.com/in/jakub-grela-6a5676200/' target='_blank'><img src={linkedin} style={{width:"60px", height:"60px", borderStyle:"solid", borderWidth:"5px", margin:"10px"}}/></a>
-                <a href='https://github.com/KubaGRe' target='_blank'><img src={github} style={{width:"60px", height:"60px", borderStyle:"solid", borderWidth:"5px", margin:"10px"}}/></a>
+      <div id='iconDiv'>
+                <a href='https://www.linkedin.com/in/jakub-grela-6a5676200/' target='_blank'><img id='icon' src={linkedin}/></a>
+                <a href='https://github.com/KubaGRe' target='_blank'><img id='icon' src={github} /></a>
       </div>            
       </Navbar>
            
-    <div style={{marginTop:'-70px'}}>
+    <div id='sections'>
       <section id='home'>
         <Home />
       </section>

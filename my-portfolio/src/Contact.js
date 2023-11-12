@@ -1,6 +1,7 @@
 import forest from './photos/forest.jpg'
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import "./contact.css"
 
 const EmailContactForm = () => {
   const form = useRef();
@@ -17,27 +18,27 @@ const EmailContactForm = () => {
   };
 
   return (
-    <div className="Contact" style={{height:"100vh", paddingTop:"70px"}}>
-      <form ref={form} onSubmit={sendEmail}>
-      <div style={{borderRadius:"10%", borderColor:"white", borderWidth:"1px", textAlign:"center", borderStyle:"solid", width:"500px", height:"700px", backgroundImage:`url(${forest})`, backgroundSize:"cover", color:"white", fontSize:"40px", marginLeft:"auto",marginRight:"auto", marginTop:"40px"}}>
+    <div className="Contact">
+      <form className='formform' ref={form} onSubmit={sendEmail}>
+      <div className='formStyle'>
         <p>CONTACT ME</p>
-        <div class="col" style={{textAlign:"center", fontSize:"10px", padding:"50px", paddingTop:"20px"}}>
+        <div class="col" id='col1'>
           <div class="row-1">
-            <label for="from_name" style={{width:"400px", marginTop:"10px", textAlign:"center"}}>
-              <p style={{fontSize:"20px"}}>Name</p>
-            <input type="text" id="from_name" name="from_name" class="form-control" style={{width:"400px", textAlign:"center"}}></input>
+            <label  id='row1' for="from_name" >
+              <p >Name</p>
+            <input type="text" id="from_name" name="from_name" class="form-control"></input>
             </label>
           </div>
-          <div class="row-1">
-            <label for="email" style={{width:"400px", marginTop:"10px", textAlign:"center"}}>
-            <p style={{fontSize:"20px"}}>Email</p>
-            <input type="text" id="email" name="email" class="form-control" style={{width:"400px", textAlign:"center"}}></input>
+          <div class="row-1" id='row1'>
+            <label  id='row1' for="email">
+            <p >Email</p>
+            <input type="text" id="email" name="email" class="form-control"></input>
             </label>
           </div>
-          <div class="row-1">
-            <label for="message" style={{width:"400px", marginTop:"10px", textAlign:"center"}}>
-            <p style={{fontSize:"20px"}}>Message</p>
-            <textarea type="text" id="message" name="message" class="form-control" style={{width:"400px", height:"300px", paddingTop:"0", paddingBottom:"0"}}></textarea>
+          <div class="row-1" id='row1'>
+            <label  id='row1' for="message">
+            <p >Message</p>
+            <textarea type="text" id="message" name="message" class="form-control" ></textarea>
             </label>
           </div>
           <div class="row-1">

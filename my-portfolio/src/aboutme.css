@@ -1,19 +1,82 @@
-.container{
-    font-size: 25px;
-}
 
-.headline{
-    margin-top: 20px;
-    font-size: 25px;
-    color: white
-}
+    .amcontainer{
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    
+    .headline{
+        margin-top: 10px;
+        font-size: 35px;
+        color: white
+    }
+    
+    .info{
+        font-size: 20px;
+        color: white
+    }
+    
+    .row{
+        width: 1600px;
+    }
+    
+    .About{
+        height: 100vh;
+        background-size: cover;
+        padding-top: 140px;
+        background-image: url("./photos/mug-pc.jpg");
+    }
+    
+    .myPhoto{
+        height: 350px;
+        width: 350px;
+        border-color: black;
+        border-style: solid;
+        border-radius: 50px;
+    }
+    
+    .abouta{
+        text-decoration: none;
+    }
 
-.info{
-    font-size: 20px;
-    color: white
-}
 
-.row{
-    width: 1600px;
+@media screen and (max-width:1000px) {
+    .amcontainer{
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    
+    .headline{
+        margin-top: 2px;
+        font-size: 15px;
+        color: white
+    }
+    
+    .info{
+        font-size: 10px;
+        color: white
+    }
+    
+    .row{
+        width: 400px;
+    }
+    
+    .About{
+        width: 412px;
+        height: 100vh;
+        background-size: cover;
+        padding-top: 100px;
+        background-image: url("./photos/mug-pc.jpg");
+    }
+    
+    .myPhoto{
+        height: 140px;
+        width: 140px;
+        border-color: black;
+        border-style: solid;
+        border-radius: 50px;
+    }
+    
+    .abouta{
+        text-decoration: none;
+    }
 }
-

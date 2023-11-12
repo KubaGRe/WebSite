@@ -8,17 +8,17 @@ import project1 from './photos/project1.jpg'
 
 function Portfolio() {
   return (
-    <div className="Portfolio" style={{height:"100vh",backgroundImage:`url(${port_back})`,backgroundSize:"cover", paddingTop:"70px"}}>
-      <Popup trigger={<button style={{marginLeft:"100px", marginTop:"70px", color:"white", backgroundImage:`url(${project1})`}}><span>Raport Generator</span></button>} position="right center" style={{zIndex:"4"}}>
-        <div style={{zIndex:"4", color:"black"}}>
-          <h2>
+    <div className="Portfolio">
+      <Popup trigger={<button ><span>Raport Generator</span></button>} position="right center" style={{zIndex:"4"}}>
+        <div className='popupWindow'>
+          <h2 className='h2popup'>
             Raport Generator
           </h2>
-          <p>
+          <p className='ppopup'>
             This project was created as a final job on postgraduate studies. We worked in group to write a program which takes input files (.xml) and generates raports.
           </p>
-          <p>Tech stack: Java, Git</p>
-          <a style={{textDecoration:"none"}} href='https://github.com/SylwiaMWO/PracowniaProjektowa'>GIT link</a>
+          <p className='ppopup'>Tech stack: Java, Git</p>
+          <a className='link' href='https://github.com/SylwiaMWO/PracowniaProjektowa'>GIT link</a>
         </div>
       </Popup>
     </div>

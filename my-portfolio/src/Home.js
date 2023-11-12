@@ -2,16 +2,17 @@ import { TypeAnimation } from 'react-type-animation';
 import Particle from './Particle';
 import linkedin from './photos/linkedin.png'
 import github from './photos/github.png'
+import "./home.css"
 
 function Home() {
     
 
     return (
         
-      <div className="About" style={{height:"100vh", paddingTop:"70px"}}>
+      <div className="Home">
         <Particle/>
-            <div style={{textAlign:"center", paddingTop:"200px",color:"white"}}>
-            <TypeAnimation style={{ fontSize: '4em', zIndex:1, textAlign:"center" }}
+            <div className='homeDiv'>
+            <TypeAnimation className='homeType'
                 sequence={[
                     'Hello my name is Jakub, welcome to my website...',                
                 ]}
