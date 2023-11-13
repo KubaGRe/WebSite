@@ -112,9 +112,9 @@
     
     .form-control{
         width: 60vw;
-        height: 2vw;
+        height: 5vw;
         text-align: center;
-        font-size: 1vw;
+        font-size: 5vw;
     }
     
     .pcontactme{
@@ -129,7 +129,7 @@
         height: 25vh;
         padding-top: 0;
         padding-bottom: 0px;
-        font-size: 1vw;
+        font-size: 5vw;
     }
 
     #buttonsubmit{
