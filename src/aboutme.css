@@ -21,7 +21,7 @@
     
     .About{
         height: 100vh;
-        padding-top: 140px;
+        padding-top: 75px;
         background-image: url("./photos/mug-pc.jpg");        
         background-size: cover;
     }
