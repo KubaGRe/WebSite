@@ -53,19 +53,21 @@
     
     .info{
         font-size: 10px;
-        color: white
+        color: white;
+        text-wrap: flex;
     }
     
     .col{
-        height: 25vh;
+        text-wrap: flex;
     }
 
     .row{
-        width: 90vw;
+        width: 99vw;
+        text-wrap: flex;
     }
     
     #rowAboutMe{
-        padding: -1vh;
+        width: 99vw;
     }
 
     .About{

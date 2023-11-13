@@ -35,7 +35,7 @@ function About() {
             <p class="info">Born: 6th of April 1997</p>  
             <p class="info">Contact: jakub.grela.pl@gmail.com</p>            
           </div>
-          <div class="col-9">
+          <div class="col">
             <p class="headline">Information:</p>
             <p class="info">In 2016 I started studying Electrical Engineering and decided to continue studying this field of engineering for a master's degree. 
             During these studies I have gained knowledge related to electrical circuits, power electronic, drive ane electromechanical circuits. 
