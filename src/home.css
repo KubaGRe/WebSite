@@ -1,4 +1,4 @@
-
+@media screen and (max-width:3550px){
     .Home{
         height: 100vh;
         padding-top: 70px;
@@ -16,7 +16,7 @@
         text-align: center;
     }
 
-
+}
 
 
 
