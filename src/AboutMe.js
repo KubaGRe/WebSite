@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="About" >
       <div class="amcontainer">
-        <div class="row">
+        <div id="rowAboutMe" class="row">
           <div class="col">
             <img class="myPhoto" src={myPhoto}/>
           </div>
@@ -29,7 +29,7 @@ function About() {
                        
           </div>
         </div>
-        <div class="row">
+        <div id="rowAboutMe" class="row">
           <div class="col">
             <p class="headline">Personal information:</p>
             <p class="info">Born: 6th of April 1997</p>  

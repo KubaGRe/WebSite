@@ -21,28 +21,28 @@ const EmailContactForm = () => {
     <div className="Contact">
       <form className='formform' ref={form} onSubmit={sendEmail}>
       <div className='formStyle'>
-        <p>CONTACT ME</p>
+        <p className='pcontactme'>CONTACT ME</p>
         <div class="col" id='col1'>
           <div class="row-1">
             <label  id='row1' for="from_name" >
-              <p >Name</p>
+              <p className='pcontactme'>Name</p>
             <input type="text" id="from_name" name="from_name" class="form-control"></input>
             </label>
           </div>
           <div class="row-1" id='row1'>
             <label  id='row1' for="email">
-            <p >Email</p>
+            <p className='pcontactme'>Email</p>
             <input type="text" id="email" name="email" class="form-control"></input>
             </label>
           </div>
           <div class="row-1" id='row1'>
             <label  id='row1' for="message">
-            <p >Message</p>
+            <p className='pcontactme'>Message</p>
             <textarea type="text" id="message" name="message" class="form-control" ></textarea>
             </label>
           </div>
           <div class="row-1">
-            <input type="submit" class="btn btn-warning" value="Send" />
+            <input id='buttonsubmit' type="submit" class="btn btn-warning" value="Send" />
           </div>          
         </div>        
         </div>

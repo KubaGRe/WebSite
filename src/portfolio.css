@@ -1,10 +1,10 @@
-
+@media screen and (max-width:2550px) {
   button {
     display: inline-block;
     text-align: center;
-    font-size: 25px;
-    width: 250px;
-    height: 250px;
+    font-size: 1.5vw;
+    width: 13vw;
+    height: 13vw;
     border-radius: 100%;
     transition: all 0.5s;
     cursor: pointer;
@@ -27,12 +27,12 @@ button span:after {
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -20px;
+    right: -1px;
     transition: 0.5s;
 }
 
 button:hover span {
-    padding-right: 40px;
+    padding-right: 2vw;
   }
   
 button:hover span:after {
@@ -56,7 +56,7 @@ button:hover span:after {
   text-decoration: none;
 }
 
-
+}
 
 
 

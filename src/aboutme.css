@@ -6,29 +6,29 @@
     
     .headline{
         margin-top: 10px;
-        font-size: 35px;
+        font-size: 2vw;
         color: white
     }
     
     .info{
-        font-size: 20px;
+        font-size: 1vw;
         color: white
     }
     
     .row{
-        width: 1600px;
+        width: 90vw;
     }
     
     .About{
         height: 100vh;
-        background-size: cover;
         padding-top: 140px;
-        background-image: url("./photos/mug-pc.jpg");
+        background-image: url("./photos/mug-pc.jpg");        
+        background-size: cover;
     }
     
     .myPhoto{
-        height: 350px;
-        width: 350px;
+        height: 20vw;
+        width: 20vw;
         border-color: black;
         border-style: solid;
         border-radius: 50px;
@@ -56,16 +56,24 @@
         color: white
     }
     
+    .col{
+        height: 25vh;
+    }
+
     .row{
-        width: 400px;
+        width: 90vw;
     }
     
+    #rowAboutMe{
+        padding: -1vh;
+    }
+
     .About{
-        width: 412px;
+        width: 100vw;
         height: 100vh;
-        background-size: cover;
         padding-top: 100px;
         background-image: url("./photos/mug-pc.jpg");
+        background-size: cover;
     }
     
     .myPhoto{
